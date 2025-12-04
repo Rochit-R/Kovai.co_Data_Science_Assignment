@@ -2,7 +2,7 @@
 Forecasting public transport ridership using SARIMA, Prophet, and ensemble models with human-insight-driven workflow and visualizations.
 
 
-# Public Transport Ridership Forecasting — Key Insights Report
+# Public Transport Ridership Forecasting  Key Insights Report
 
 > **Name:** Rochit R  
 > **Reg No:** 727822TUAM045  
@@ -12,10 +12,10 @@ Forecasting public transport ridership using SARIMA, Prophet, and ensemble model
 
 ---
 
-## Insight 1 — Initial Exploration & Observations
+## Insight 1 Initial Exploration & Observations
 While exploring the dataset, I noticed daily ridership data for six transport services over five years. Rapid Route and Peak Service had high variability, whereas School and Local Route were more stable. Missing values were minimal, mostly in the "Other" category, which I interpolated. Examining summary statistics revealed occasional extreme spikes. This step highlighted the **importance of cleaning and understanding trends before modeling** for forecast accuracy.
 
-## Insight 2 — EDA & Pattern Recognition
+## Insight 2 EDA & Pattern Recognition
 During exploratory data analysis:
 - Weekly seasonality: commuter-heavy services peak on weekdays; school services fluctuate less.
 - Rolling averages (7-day and 30-day) smoothed daily noise and revealed trends.
@@ -23,7 +23,7 @@ During exploratory data analysis:
 
 This stage helped **formulate modeling strategies**, realizing that simple models wouldn’t capture seasonal or correlated patterns.
 
-## Insight 3 — Modeling Strategy & Feature Engineering
+## Insight 3 Modeling Strategy & Feature Engineering
 Implemented a layered approach:
 1. **Naive and Moving Average** models — baseline trends.  
 2. **SARIMA** — captures trend, seasonality, and autocorrelation.  
@@ -32,14 +32,14 @@ Implemented a layered approach:
 
 Added **lag features (1,7,30 days) and rolling means** to improve performance and interpretability, bridging raw observations into actionable forecasts.
 
-## Insight 4 — Fine-Tuning & Learning
+## Insight 4 Fine-Tuning & Learning
 - SARIMA required careful selection of (p,d,q)(P,D,Q,s) parameters.  
 - Prophet regressors reduced prediction error.  
 - Ensemble weighting balanced strengths of each model.  
 
 This iterative tuning gave deeper insight into trade-offs and improved forecast reliability while keeping human interpretability.
 
-## Insight 5 — Model Evaluation & Decision
+## Insight 5 Model Evaluation & Decision
 Models were compared using RMSE, MAE, and MAPE:
 - Naive: simple but misses seasonality.
 - MA7: captures short-term trends effectively.
