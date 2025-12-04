@@ -4,7 +4,7 @@ Forecasting public transport ridership using SARIMA, Prophet, and ensemble model
 
 # Public Transport Ridership Forecasting — Key Insights Report
 
-> **Student Name:** Rochit R  
+> **Name:** Rochit R  
 > **Reg No:** 727822TUAM045  
 > **Department:** AIML  
 > **College:** Sri Krishna College of Technology  
@@ -46,16 +46,6 @@ Models were compared using RMSE, MAE, and MAPE:
 - SARIMA and Prophet: capture seasonality and external factors.
 - Ensemble: balanced, robust forecasts, ideal for planners.
 
-## Forecasting Timeline Visualization
-A conceptual timeline of the modeling workflow shows the **human insight journey**:
-- 9–10 AM: Initial exploration & missing value handling  
-- 10–11 AM: EDA plots & correlation analysis  
-- 11–12 PM: Feature engineering & baseline models  
-- 12–1 PM: SARIMA and Prophet training, tuning parameters  
-- 1–2 PM: Ensemble modeling & RMSE evaluation  
-- 2–3 PM: Final forecast generation & interpretation  
-
-This demonstrates how **human reasoning and modeling decisions were integrated** for actionable forecasts.
 
 ## Final Takeaways & Learnings
 Combining statistical and ML approaches improves forecasting:
